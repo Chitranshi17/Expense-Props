@@ -161,7 +161,22 @@ form{
 
 @media (max-width:768px) {
   html{
-    font-size: 40%;
+    font-size: 55%;
+  }
+  .HeroSection{
+    flex-direction: column;
+  }
+  .left-sec{
+    width: 100%;
+  }
+  .right-sec{
+    width: 95%;
   }
   
+}
+
+@media (max-width:400px) {
+  html{
+    font-size: 45%;
+  }
 }
