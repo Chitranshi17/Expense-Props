@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+.HeroSection{
+  width: 100%;
+  height: 90vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-sec{
+  width: 35%;
+  height: 100%;
+  /* background-color: black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  /* border-top-right-radius: 15rem; */
+  /* border-bottom-right-radius: 13rem; */
+}
+.form-sec{
+  width: 95%;
+  height: 42%;
+  /* margin: 2.5rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: black; */
+  flex-direction: column;
+  border: 2px solid black;
+}
+form{
+  width: 100%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-inline: 1rem;
+}
+.ul-sec{
+  width: 95%;
+  height: 56%;
+  /* margin: 2.5rem; */
+  overflow: auto;
+  border: 2px solid black;
+
+}
+.list-group-item{
+  min-width: 100%;
+  min-height: 9.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 0.8rem; */
+  padding: 2rem;
+}
+.list-group-item span{
+  width: 15%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.right-sec{
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: rgba(3, 52, 3, 0.676); */
+}
+.top-sec{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-c{
+  min-width: 49.5%;
+  min-height: 95.5%;
+  /* background-color: thistle; */
+  border-radius: 0;
+  display: flex;
+  align-content:center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  border: 2px solid black;
+}
+.card-c:first-child{
+  /* background-color: rgba(12, 116, 57, 0.265); */
+}
+.card-c:nth-child(2){
+  /* background-color: rgba(0, 0, 255, 0.276); */
+}
+.card-c:nth-child(3){
+  /* background-color: rgba(255, 0, 0, 0.32); */
+}
+.card-c h3{
+  font-size: 4rem;
+}
+.card-c h6{
+  font-size: 2.5rem;
+}
+.bottom-sec{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.total-cost{
+  width: 99.5%;
+  height: 99.5%;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid black;
+}
+.total-cost h2{
+  font-size: 4rem;
+  text-align: center;
+  color: purple;
+}
+.total-cost h5{
+  font-size: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+
+@media (max-width:768px) {
+  html{
+    font-size: 40%;
+  }
+  
+}
